@@ -1,0 +1,353 @@
+/* global variable  */
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --main-color: #F5B324;
+  --secondary: #0a142f;
+  --font-color: #565656;
+  --white: #ffffff;
+  --gray: #c9c9c9;
+  --main-font: 'Urbanist';
+  --display_padding: 30px;
+}
+
+.row {
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading {
+  text-align: center;
+  color: var(--font-color);
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: var(--main-font);
+  font-weight: 900;
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading-body {
+  font-size: 15px;
+  color: var(--font-color);
+  line-height: 19px;
+  font-family: var(--main-font);
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+.heading-body-sm {
+  display: none;
+}
+
+/* navbar */
+.ij-navbar {
+  padding-top: 0px !important;
+}
+
+.navbar-image {
+  width: 169px;
+  height: 40px;
+}
+
+.ij-nav-active {
+  background: var(--main-color);
+  color: white;
+  padding: 20px;
+  font-family: var(--main-font);
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.ij-nav-link {
+  padding: 20px;
+  color: var(--secondary);
+  font-family: var(--main-font);
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.banner {
+  height: 450px;
+}
+
+.banner-image {
+  height: 400px;
+}
+
+.banner_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 62px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.banner__sub_title {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 10px;
+  font-size: 30px;
+  color: white;
+  font-family: var(--main-font);
+}
+
+.about_btn {
+  border: 0px;
+  background-color: var(--main-color);
+  font-family: var(--main-font);
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+
+.mission_btn {
+  border: 0px;
+  background-color: white;
+  font-family: var(--main-font);
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--font-color);
+  text-transform: uppercase;
+}
+
+.about-content {
+  text-transform: capitalize;
+  color: var(--font-color);
+  text-align: justify;
+  font-family: var(--main-font);
+}
+
+.about_btn_sm {
+  text-transform: capitalize;
+  color: white;
+  background-color: var(--main-color);
+  padding: 5px;
+  padding-inline: 30px;
+  text-decoration: none;
+}
+
+.about-content-section {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.about-us-hidden {
+  display: none;
+}
+
+.service>img {
+  height: 40px;
+  border: 2px solid var(--main-color);
+  padding: 4px;
+}
+
+.service>h4 {
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.service>p {
+  text-align: justify;
+  line-height: 17px;
+  text-align-last: center;
+}
+
+.main-service {
+  margin-top: 100px;
+}
+
+
+
+.blog>h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-top: 20px;
+  margin: 0px;
+  color: var(--font-color);
+  font-family: var(--main-font);
+  text-transform: uppercase;
+}
+
+.blog>h5 {
+  font-size: 15px;
+  text-transform: capitalize;
+  margin: 0px;
+  color: var(--font-color);
+  font-family: var(--main-font);
+}
+
+.blog>p {
+  font-family: var(--main-font);
+  line-height: 15px;
+  text-align: justify;
+  text-align-last: center;
+  color: var(--font-color);
+}
+.blog-img{
+  width: 100px;
+  height: 100px;
+}
+
+.count>h4 {
+  color: white;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: var(--main-font);
+}
+
+.contact>input {
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  margin-top: 15px;
+  font-family: var(--main-font);
+}
+
+.contact-title {
+  font-family: var(--main-font);
+}
+
+.say-hello {
+  color: var(--main-color);
+  font-family: var(--main-color);
+}
+
+.send-btn {
+  background-color: var(--main-color);
+  color: white;
+  font-family: var(--main-font);
+  font-size: 30px;
+  font-weight: 400;
+  border: none;
+  padding-inline: 30px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.footer-text {
+  font-size: 14px;
+  font-family: var(--main-font);
+  color: white;
+}
+
+.footer-ul>a {
+  list-style: none;
+  text-decoration: none;
+  padding-inline: 5px;
+}
+.footer{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .ij-nav-link {
+    padding: 5px;
+  }
+
+  .ij-nav-active {
+    background: var(--main-color);
+    color: white;
+    padding: 5px;
+    font-family: var(--main-font);
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  .ij-nav-top {
+    margin-top: 7px;
+  }
+
+
+  .banner_title {
+    justify-content: center;
+    align-items: center;
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 22px;
+    color: white;
+  }
+
+  .banner__sub_title {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 4px;
+    font-size: 15px;
+    color: white;
+    font-family: var(--main-font);
+  }
+
+  .banner-image {
+    margin-top: 10px;
+    height: 150px;
+  }
+
+  .about-btn-section {
+    display: none;
+  }
+
+  .about-content-section {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .about-us-hidden {
+    display: block;
+  }
+
+  .heading-body {
+    display: none;
+  }
+
+  .heading-body-sm {
+    display: block;
+    line-height: 14px;
+    color: var(--font-color);
+  }
+
+  .main-service {
+    margin-top: 30px;
+  }
+
+  
+
+  .count>h4 {
+    color: white;
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: var(--main-font);
+  }
+
+  .send-btn {
+    background-color: var(--main-color);
+    color: white;
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    padding-inline: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+  .footer{
+    padding: 0px;
+  }
+}
