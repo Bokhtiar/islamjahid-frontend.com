@@ -285,21 +285,66 @@
   font-family: var(--main-font);
 }
 
-.land-content{
+.land-content {
   background: #BBD5EF;
   text-align: justify;
 }
 
-.mission{
+.mission {
   border: 2px solid #D9D9D9;
   border-radius: 40px;
 }
-.mission-header{
+
+.mission-header {
   font-family: var(--main-font);
 }
-.mission-content{
+
+.mission-content {
   text-align: justify;
   font-family: var(--main-font);
+}
+
+/* ---------------------------service page------------------------------------ */
+.service-image {
+  height: 300px;
+  width: 100%;
+}
+
+.service-heading {
+  font-size: 35px;
+  color: var(--main-color);
+  font-family: var(--main-font);
+  text-transform: uppercase;
+}
+
+.service-content {
+  border: 2px solid var(--main-color);
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: justify;
+  padding-inline: 65px;
+  font-size: 15px;
+  font-family: var(--main-font);
+}
+
+.service-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.article-title{
+  font-size: 25px;
+}
+.article-text{
+  font-size: 20px;
+  font-weight: var(--main-font);
+  font-style: italic;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  line-height: 20px;
+  padding-inline: 20px;
 }
 /* -------------------------------------------------responsive--------------------------------------------------------- */
 @media (max-width: 768px) {
@@ -378,8 +423,6 @@
     margin-top: 30px;
   }
 
-
-
   .count>h4 {
     color: white;
     margin-top: 15px;
@@ -404,4 +447,53 @@
   .footer {
     padding: 0px;
   }
+
+  /* -------------------------about page------------------------ */
+  .about-profile-heading {
+    font-size: 26px;
+  }
+
+  /* ---------------------------service page------------------------------------ */
+  .service-image {
+    height: 150px;
+    width: 100%;
+  }
+
+  .service-heading {
+    font-size: 20px;
+    color: var(--main-color);
+    font-family: var(--main-font);
+    text-transform: uppercase;
+  }
+
+  /* ---------------------------service page------------------------------------ */
+  .service-image {
+    height: 150px;
+    width: 100%;
+  }
+
+  .service-heading {
+    font-size: 20px;
+    color: var(--main-color);
+    font-family: var(--main-font);
+    text-transform: uppercase;
+  }
+
+  .service-content {
+    border: 2px solid var(--main-color);
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: justify;
+    padding-inline: 20px;
+    font-size: 15px;
+    font-family: var(--main-font);
+  }
+
+  .service-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
 }
