@@ -282,8 +282,25 @@
   padding-top: 200px;
   padding-bottom: 50px;
   text-align: justify;
+  font-family: var(--main-font);
 }
 
+.land-content{
+  background: #BBD5EF;
+  text-align: justify;
+}
+
+.mission{
+  border: 2px solid #D9D9D9;
+  border-radius: 40px;
+}
+.mission-header{
+  font-family: var(--main-font);
+}
+.mission-content{
+  text-align: justify;
+  font-family: var(--main-font);
+}
 /* -------------------------------------------------responsive--------------------------------------------------------- */
 @media (max-width: 768px) {
   .ij-nav-link {
